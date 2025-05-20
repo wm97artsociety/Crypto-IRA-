@@ -1,5 +1,101 @@
 # Crypto-IRA
 
+version 1.01
+
+crypto-ira-dashboard/
+
+├── backend/
+
+│   ├── controllers/
+
+│   │   ├── tokensController.js
+
+│   │   └── okxController.js  
+
+<-- new
+
+│   ├── routes/
+
+│   │   ├── tokensRoutes.js
+
+│   │   └── okxRoutes.js  
+
+<-- new
+│   ├── services/
+
+│   │   └── coingeckoService.js
+
+│   ├── utils/
+
+│   │   └── cache.js
+
+│   ├── server.js  
+
+<-- updated to add okxRoutes
+
+│   └── .env.example
+
+├── frontend/
+
+│   ├── components/
+
+│   │   ├── TokenCard.jsx
+
+│   │   ├── Sidebar.jsx
+
+│   │   ├── Pagination.jsx
+
+│   │   ├── WalletConnect.jsx
+
+│   │   ├── PaymentGateway.jsx
+
+│   │   └── OkxBonusSection.jsx 
+
+<-- new
+│   ├── pages/
+
+│   │   └── CryptoIRADashboard.jsx
+
+<-- updated to include bonus section
+│   ├── api/
+
+│   │   ├── tokensApi.js
+
+│   │   └── okxApi.js  
+
+<-- new
+│   ├── contexts/
+
+│   │   └── WalletContext.jsx
+
+│   ├── App.jsx
+
+│   ├── index.jsx
+
+│   └── styles.css
+
+APR and Bonus Explanation for the Crypto IRA Dashboard
+The Annual Percentage Rate (APR) in the Crypto IRA Dashboard represents the yearly interest rate that users earn on their cryptocurrency holdings within their IRA accounts. This rate reflects the return on investment from staking, lending, or vault participation, and it is designed to compound over time, growing the user’s retirement assets efficiently.
+
+What sets this platform apart is the integration of an exclusive APR Bonus program, which can add significant additional returns on top of the standard APR. Powered by partnerships with leading crypto exchanges like OKX, the system can offer bonus rewards that, at peak times, amount to up to $3 million dollars distributed across users over a set period, such as 14 days.
+
+This bonus is dynamically calculated based on factors like:
+
+Total assets locked in the IRA vaults
+
+Market conditions and exchange promotions
+
+User participation and staking activity
+
+For example, if the base APR is set at a competitive 19,900%, the bonus can effectively increase the yield, providing users with a meaningful boost in returns, directly credited to their IRA holdings. This feature incentivizes long-term investment and active participation, making the Crypto IRA Dashboard a uniquely rewarding platform for retirement investing in cryptocurrencies.
+
+
+
+
+------------------------------------------
+
+
+version 1.00
 
 crypto-ira-dashboard/
 
