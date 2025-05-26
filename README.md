@@ -12,13 +12,26 @@
 - 
 
 your-project/
+
 ├── frontend/
+
 │   ├── components/
-│   │   └── CryptoFaucet.jsx         # Faucet functionality with cooldown and tracking
+
+│   │   └── CryptoFaucet.jsx  
+
+# Faucet functionality with cooldown and tracking
+
 │   ├── pages/
-│   │   └── CryptoIRADashboard.jsx  # Where <CryptoFaucet /> is imported and used
+
+│   │   └── CryptoIRADashboard.jsx  
+
+# Where <CryptoFaucet /> is imported and used
+
 │   └── styles/
-│       └── CryptoFaucet.css        # Styling for the Crypto Faucet UI
+
+│       └── CryptoFaucet.css  
+
+# Styling for the Crypto Faucet UI
 
 
 
