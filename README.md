@@ -1,6 +1,31 @@
 # Crypto-IRA
 
-version 1.01 zip file (1).zip
+
+🔄 Version 1.01 Update files (APR Build)
+
+- Added: Crypto IRA Faucet Component (`CryptoFaucet.jsx`)
+- CSS: Custom faucet styling added to `CryptoFaucet.css`
+- Feature: Faucet lets users claim $190 every hour
+- Metrics: Displays total earned + user count
+- Hooks: Cooldown + daily claim tracking
+- Next: Chart integration and Rarible NFT Buy UI (v1.02)
+- 
+
+your-project/
+├── frontend/
+│   ├── components/
+│   │   └── CryptoFaucet.jsx         # Faucet functionality with cooldown and tracking
+│   ├── pages/
+│   │   └── CryptoIRADashboard.jsx  # Where <CryptoFaucet /> is imported and used
+│   └── styles/
+│       └── CryptoFaucet.css        # Styling for the Crypto Faucet UI
+
+
+
+
+------------------------------------------
+
+new addition version zip file (1).zip
 
 crypto-ira-dashboard/
 
