@@ -1,9 +1,10 @@
 # Crypto-retirement-asset-CRA
 
+dont not change file structure i meant to add CRA to the files for interest retirement asset but how the files are set up you would have to change a million coding files 
 
 🔄 Version 1.01 Update files (APR Build)
 
-- Added: Crypto IRA Faucet Component (`CryptoFaucet.jsx`)
+- Added: Crypto CRA Faucet Component (`CryptoFaucet.jsx`)
 - CSS: Custom faucet styling added to `CryptoFaucet.css`
 - Feature: Faucet lets users claim $190 every hour
 - Metrics: Displays total earned + user count
